@@ -11,7 +11,7 @@ interface HomeProps {
 const Home = ({ products }: HomeProps) => {
   return (
     <>
-      <PageTitle>商品列表 React Refresh</PageTitle>
+      <PageTitle>商品列表</PageTitle>
       <ProductGallery>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
